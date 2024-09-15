@@ -18,22 +18,15 @@ This project implements a Generative Adversarial Network (GAN) for generating sy
 
 ## Usage
 
-1. Train the GAN:
+1. Train the GAN and generate synthetic data:
 
     ```bash
     python train.py
     ```
 
-2. Generate synthetic data:
-
-    ```bash
-    python generate.py
-    ```
-
 ## Project Structure
 
-- `train.py`: Script for training the GAN.
-- `generate.py`: Script for generating synthetic data using the trained GAN.
+- `train.py`: Script for training the GAN and generating synthetic data.
 - `generator.py`: Contains the implementation of the generator network.
 - `discriminator.py`: Contains the implementation of the discriminator network.
 - `utils.py`: Utility functions for data preprocessing and visualization.
